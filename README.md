@@ -4,4 +4,4 @@
 
 ##possibly with the magic of music??
 
-![MUSIC MARIO.jpeg](https://github.com/jjwwxk/Group-Project-2021-2022/blob/gh-pages/src/MUSIC MARIO.jpeg?raw=true)
+![MUSIC MARIO.jpeg](https://github.com/jjwwxk/Group-Project-2021-2022/blob/gh-pages/src/MUSIC_MARIO.jpeg?raw=true)
