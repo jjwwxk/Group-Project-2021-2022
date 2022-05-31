@@ -6,16 +6,23 @@ class Laser {
     rad = 4;
     this.x=x;
     this.y=y;
-    laz = loadImage("HEROBULLET.gif");
+    laz = loadImage("Musicnote2.png");
     y=0;
-    w=32;
-    h=32;
-    speed=6;
+    w=10;
+    h=10;
+    speed=1;
     gameMode='1';
   }
-  void fire(int dir) {
-    if (dir==0){
-    y-=speed;
+  void fire(int dir2) {
+    if (dir2==1){
+      y-=speed;
+    } else if (dir2==2){
+      x+=speed;
+    }else if (dir2==3){
+      y+=speed;
+    } else if (dir2==4){
+      x-=speed;
+    }
   }
   boolean reachTop() {
     if (y<-20) {
